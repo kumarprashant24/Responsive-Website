@@ -1,5 +1,6 @@
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -240,7 +241,7 @@ li{
     text-decoration: none;
 }
 .ml{
-    margin-left: 52px;
+    margin-left: 18px;
 }
 input{
     
@@ -479,12 +480,13 @@ input{
 
 }
 
-@media screen and (max-width: 376px)  {
+@media screen and (max-width: 400px)  {
     .sec-1 img {
         width: 100%;
-        height: 619px;
+        height: 652px;
         /* opacity: 0.5; */
     }
+   
     .flex{
         flex-direction: column;
     }
@@ -510,7 +512,87 @@ input{
         margin-top: 10px;
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: 400px;
+        grid-template-columns: 310px;
+        grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+    }
+    .back-color {
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .gap {
+        
+        text-align: center;
+    }
+    .main {
+        font-size: 22px;
+        font-weight: 0;
+    }
+    .right {
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto;
+        
+      }
+      .item9{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+      .phone{
+          text-align: center;
+      }
+      .big-f {
+        font-size: 22px;
+    }
+   
+    .logo-center {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .pic-gallery img {
+        width: 100%;
+        height: 500px;
+    }   
+
+}
+@media screen and (max-width: 321px)  {
+    .sec-1 img {
+        width: 100%;
+        height: 652px;
+        /* opacity: 0.5; */
+    }
+    
+    .flex{
+        flex-direction: column;
+    }
+   
+    .logo{
+        justify-content: center;
+    }
+    .all-center{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        display: flex;
+        padding: 15px;
+    }
+    .inner-padding{
+        padding-right: 0px;
+    }
+    .pic-gallery{
+    
+        justify-content: center;
+        margin-top: 10px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 250px;
         grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px;
     }
     .back-color {
