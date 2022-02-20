@@ -12,6 +12,9 @@
     height: 100%;
 
 }
+.minor{
+    display: flex;
+}
 .partition{
     display: flex;
     
@@ -300,7 +303,7 @@ input{
       justify-content: center;
   }
   .logos-color img{
-    padding: 18px;
+    padding: 5px;
 }
 .logo-center {
     display: flex;
@@ -377,12 +380,12 @@ input{
         margin-top: 10px;
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: 400px;
-        grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 500px 500px 500px 500px 500px;
     }
     .item9{
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 3;
     }
     .logo-center {
         display: flex;
@@ -390,7 +393,8 @@ input{
         width: 100%;
     }
     .logos-color img{
-        padding: 18px;
+        padding: 0px;
+        width: 100%;
     }
     .phone{
         text-align: center;
@@ -411,6 +415,9 @@ input{
         
     }
     .flex{
+        flex-direction: column;
+    }
+    .minor{
         flex-direction: column;
     }
     .container-d {
@@ -486,7 +493,7 @@ input{
         width: 100%;
     }
     .logos-color img{
-        padding: 18px;
+        padding: 105px;
     }
     /* .right {
         margin-top: 25px;
@@ -529,6 +536,9 @@ input{
         padding-left: 7%;
         padding-right: 10%;
     }
+    .minor{
+        flex-direction: column;
+    }
     .left {
         padding-left: 7%;
         padding-right: 10%;
@@ -559,6 +569,9 @@ input{
         grid-gap: 20px;
         grid-template-columns: 310px;
         grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+    }
+    .logos-color img{
+        padding: 80px;
     }
     .back-color {
        
@@ -695,6 +708,9 @@ input{
       }
       .big-f {
         font-size: 22px;
+    }
+    .logos-color img{
+        padding: 50px;
     }
    
     .logo-center {
